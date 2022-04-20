@@ -65,7 +65,7 @@ for src_face in src_faces:
                index_point2 = (tri[2], tri[3])
                index_point3 = (tri[4], tri[5])
 
-               line_color = (255, 0, 0)
+               line_color = (255, 255, 255)
                cv2.line(src_img, index_point1, index_point2, line_color, 1)
                cv2.line(src_img, index_point2, index_point3, line_color, 1)
                cv2.line(src_img, index_point3, index_point1 , line_color, 1)
